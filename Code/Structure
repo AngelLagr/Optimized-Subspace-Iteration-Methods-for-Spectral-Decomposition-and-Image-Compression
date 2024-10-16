@@ -1,0 +1,27 @@
+ReconstructionImage.m: Contains code for reconstructing images from compressed data. Likely used during the decompression phase in the application of spectral methods to image compression.
+
+eigen_2024.m: Implements a specific method for eigenvalue computations. This may be a customized or optimized method for the project in 2024.
+
+matgen_csad.m: Generates specific matrices, possibly related to the image compression problem, using a method referred to as "csad". It could also be used to generate random matrices for algorithm testing.
+
+mgs.m: Implements the Modified Gram-Schmidt (MGS) algorithm, which is used to orthogonalize a set of vectors, a common procedure in iterative methods.
+
+mgs_block.m: A block version of the Modified Gram-Schmidt algorithm, optimized for processing larger blocks of vectors or matrices.
+
+power_v11.m and power_v12.m: These are two different versions of the Power Method, a basic iterative method for computing dominant eigenvalues. The v11 and v12 suffixes denote different versions or optimizations.
+
+rayleigh_ritz_projection.m: Implements the Rayleigh-Ritz projection, which is used to refine eigenvalue and eigenvector approximations in iterative methods like the subspace iteration method.
+
+repartition_valeurs_propres.m: Contains functions for visualizing or analyzing the distribution of the computed eigenvalues.
+
+subspace_iter_v0.m: The initial implementation of the Subspace Iteration Method, likely without the optimizations seen in later versions.
+
+subspace_iter_v1.m to subspace_iter_v3.m: These files represent successive versions of the Subspace Iteration Method, with v2 introducing Rayleigh projection and v3 featuring further optimizations.
+
+test: A testing script to validate the accuracy of the methods implemented in the project.
+
+test_v0v1.m, test_v0v1v2.m, test_v0v1v2v3.m: Test scripts comparing the performance of different versions of the Subspace Iteration Method, from v0 (initial) to v3 (optimized).
+
+test_v11.m, test_v11v12.m: Test scripts comparing different versions of the Power Method (v11 vs. v12) to evaluate improvements.
+
+verification_qualite.m: This file likely checks the quality of the results, particularly in the context of image compression, by comparing the reconstructed image's quality to the original.
