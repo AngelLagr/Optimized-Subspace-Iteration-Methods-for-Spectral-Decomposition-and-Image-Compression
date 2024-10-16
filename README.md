@@ -16,9 +16,6 @@ We explore various versions of the **Subspace Iteration Method**, starting from 
 2. **Subspace Iteration (v1)**: A refined method without projection.
 3. **Subspace Iteration with Rayleigh Projection (v2)**: Enhanced with Rayleigh projection.
 4. **Subspace Iteration with Rayleigh Projection and Acceleration (v3)**: Further optimized for large matrices.
-
-## Results
-- The **MATLAB `eig` function** is generally the fastest and most efficient.
 - The **accelerated subspace iteration** method performs well for large matrices in image compression applications.
 
 ## Requirements
