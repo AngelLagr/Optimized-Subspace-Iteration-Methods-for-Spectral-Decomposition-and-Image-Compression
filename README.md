@@ -26,8 +26,3 @@ We explore various versions of the **Subspace Iteration Method**, starting from 
 - The following toolboxes are required:
   - Optimization Toolbox
   - Image Processing Toolbox
-
-## How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/optimized-subspace-iteration.git
