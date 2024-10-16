@@ -1,4 +1,4 @@
-ReconstructionImage.m: Contains code for reconstructing images from compressed data. Likely used during the decompression phase in the application of spectral methods to image compression.
+éReconstructionImage.m: Contains code for reconstructing images from compressed data. Likely used during the decompression phase in the application of spectral methods to image compression.
 
 eigen_2024.m: Implements a specific method for eigenvalue computations. This may be a customized or optimized method for the project in 2024.
 
