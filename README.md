@@ -1,4 +1,5 @@
-# Description
+# Optimized Subspace Iteration Methods for Spectral Decomposition and Image Compression
+## Description
 
 This repository contains the implementation of advanced **Subspace Iteration Methods** for spectral decomposition of matrices, with a focus on applying these methods to **image compression**. 
 
